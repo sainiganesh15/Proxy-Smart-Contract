@@ -1,0 +1,124 @@
+{
+  "version": "3.4",
+  "log": [
+    {
+      "contracts/NUM2.sol:NUM2": {
+        "src": "contracts\\NUM2.sol:5",
+        "version": {
+          "withMetadata": "eb5418250df214caef0abcfdf3f75027ca9e7c03e20f5e3ae538956aa08cbbb3",
+          "withoutMetadata": "86ba442b943e0bb6d05bb7278dca9e1ef7df138dbbaf90d366f72239e7116b9b",
+          "linkedWithoutMetadata": "86ba442b943e0bb6d05bb7278dca9e1ef7df138dbbaf90d366f72239e7116b9b"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "update(uint256)",
+          "get()",
+          "increment()"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [
+            {
+              "label": "num",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_uint256",
+              "contract": "NUM2",
+              "src": "contracts\\NUM2.sol:6"
+            }
+          ],
+          "types": {
+            "t_uint256": {
+              "label": "uint256",
+              "numberOfBytes": "32"
+            }
+          },
+          "layoutVersion": "1.2",
+          "flat": true
+        },
+        "solcVersion": "0.8.9"
+      }
+    },
+    {
+      "contracts/NUM2.sol:NUM1": {
+        "src": "contracts\\NUM2.sol:5",
+        "version": {
+          "withMetadata": "7972a26e30536c94304039c16ae4bd8500375d6a659fcdfe76253bf48d86e2c9",
+          "withoutMetadata": "86ba442b943e0bb6d05bb7278dca9e1ef7df138dbbaf90d366f72239e7116b9b",
+          "linkedWithoutMetadata": "86ba442b943e0bb6d05bb7278dca9e1ef7df138dbbaf90d366f72239e7116b9b"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "update(uint256)",
+          "get()",
+          "increment()"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [
+            {
+              "label": "num",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_uint256",
+              "contract": "NUM1",
+              "src": "contracts\\NUM2.sol:6"
+            }
+          ],
+          "types": {
+            "t_uint256": {
+              "label": "uint256",
+              "numberOfBytes": "32"
+            }
+          },
+          "layoutVersion": "1.2",
+          "flat": true
+        },
+        "solcVersion": "0.8.9"
+      }
+    },
+    {
+      "contracts/NUM1.sol:NUM1": {
+        "src": "contracts\\NUM1.sol:5",
+        "version": {
+          "withMetadata": "40ee179e6efcc1fbdef09018f051b3649881406f17020ba24e1e2677dcbf8333",
+          "withoutMetadata": "beb62be386cd93e3215c01102c4e8a308abc166b774158d6dd23b6ca1c8debca",
+          "linkedWithoutMetadata": "beb62be386cd93e3215c01102c4e8a308abc166b774158d6dd23b6ca1c8debca"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "update(uint256)",
+          "get()"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [
+            {
+              "label": "num",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_uint256",
+              "contract": "NUM1",
+              "src": "contracts\\NUM1.sol:6"
+            }
+          ],
+          "types": {
+            "t_uint256": {
+              "label": "uint256",
+              "numberOfBytes": "32"
+            }
+          },
+          "layoutVersion": "1.2",
+          "flat": true
+        },
+        "solcVersion": "0.8.9"
+      }
+    }
+  ]
+}
